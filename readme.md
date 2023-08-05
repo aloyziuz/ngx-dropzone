@@ -32,7 +32,7 @@ npm install @aloysius-software-factory/ngx-dropzone-cdk @aloysius-software-facto
 ## Versioning
 
 For the versioning, we stay consistent with the major Angular releases.
-So Angular (components) v16 will be compatible with `@ngx-dropzone/cdk@16.x.x`.
+So Angular (components) v16 will be compatible with `@aloysius-software-factory/ngx-dropzone-cdk@16.x.x`.
 
 Please note, that v16 is the first officially supported version.
 For older Angular releases, use the libs at your own risk.
@@ -45,8 +45,8 @@ If you want to extend the CDK with your own styling, see below.
 ```js
 // in app.module.ts
 import { MatFormFieldModule } from '@angular/material/form-field';
-import { DropzoneCdkModule } from '@ngx-dropzone/cdk';
-import { DropzoneMaterialModule } from '@ngx-dropzone/material';
+import { DropzoneCdkModule } from '@aloysius-software-factory/ngx-dropzone-cdk';
+import { DropzoneMaterialModule } from '@aloysius-software-factory/ngx-dropzone-material';
 
 @NgModule({
   ...
@@ -171,7 +171,7 @@ The basic setup requires you to import the `DropzoneCdkModule` into your app.
 
 ```js
 // in app.module.ts
-import { DropzoneCdkModule } from '@ngx-dropzone/cdk';
+import { DropzoneCdkModule } from '@aloysius-software-factory/ngx-dropzone-cdk';
 
 @NgModule({
   ...
@@ -189,7 +189,7 @@ Material reference implementation linked above.
 
 ```ts
 import { ChangeDetectorRef, Component } from "@angular/core";
-import { DropzoneComponent } from "@ngx-dropzone/cdk";
+import { DropzoneComponent } from "@aloysius-software-factory/ngx-dropzone-cdk";
 
 @Component({
   selector: "my-dropzone",

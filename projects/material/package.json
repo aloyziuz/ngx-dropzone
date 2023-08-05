@@ -1,6 +1,6 @@
 {
   "name": "@aloysius-software-factory/ngx-dropzone-material",
-  "version": "16.0.3",
+  "version": "16.0.4",
   "description": "Dropzone with Material Design implementation.",
   "license": "MIT",
   "author": {
@@ -26,7 +26,7 @@
     "@angular/common": "^16.0.0",
     "@angular/core": "^16.0.0",
     "@angular/forms": "^16.0.0",
-    "@ngx-dropzone/cdk": "^16.0.0",
+    "@aloysius-software-factory/ngx-dropzone-cdk": "^16.0.0",
     "rxjs": "^7.8.1"
   }
 }
