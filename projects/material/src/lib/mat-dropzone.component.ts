@@ -109,7 +109,7 @@ export class MatDropzone extends DropzoneComponent implements MatFormFieldContro
     super.ngAfterContentInit();
 
     // Forward the stateChanges from the fileInputDirective to the MatFormFieldControl
-    merge(this.fileInputDirective?.stateChanges ?? EMPTY, this.dragover$)
+    merge<[void|never, boolean]>(this.fileInputDirective?.stateChanges ?? EMPTY, this.dragover$)
       .pipe(
         tap(() => this.stateChanges.next()),
         takeUntil(this._destroy$)

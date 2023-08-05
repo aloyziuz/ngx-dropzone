@@ -6,8 +6,8 @@ Like the Angular Material repo, it uses a monorepo setup for maximum extensibili
 
 | Package                  | Description                                      |
 | ------------------------ | ------------------------------------------------ |
-| `@ngx-dropzone/cdk`      | Common dropzone interaction patterns.            |
-| `@ngx-dropzone/material` | Material Design implementation based on the CDK. |
+| `@aloysius-software-factory/ngx-dropzone-cdk`      | Common dropzone interaction patterns.            |
+| `@aloysius-software-factory/ngx-dropzone-material` | Material Design implementation based on the CDK. |
 
 While the CDK itself is basically headless, the Material implementation relies
 on the [Angular Material components](https://github.com/angular/components) to
@@ -20,13 +20,13 @@ provide a consistent style integration.
 You may only want to install the dropzone CDK to apply your own styling.
 
 ```sh
-npm install @ngx-dropzone/cdk
+npm install @aloysius-software-factory/ngx-dropzone-cdk
 ```
 
 For the Material Design implementation, install both packages.
 
 ```sh
-npm install @ngx-dropzone/cdk @ngx-dropzone/material
+npm install @aloysius-software-factory/ngx-dropzone-cdk @aloysius-software-factory/ngx-dropzone-material
 ```
 
 ## Versioning

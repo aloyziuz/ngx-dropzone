@@ -1,16 +1,16 @@
 {
-  "name": "@ngx-dropzone/material",
+  "name": "@aloysius-software-factory/ngx-dropzone-material",
+  "version": "16.0.3",
   "description": "Dropzone with Material Design implementation.",
   "license": "MIT",
   "author": {
-    "name": "hackingharold",
-    "email": "hackingharold@mailbox.org"
+    "name": "aloysius"
   },
-  "homepage": "https://github.com/hackingharold/ngx-dropzone",
-  "bugs": "https://github.com/hackingharold/ngx-dropzone/issues",
+  "homepage": "https://github.com/aloyziuz/ngx-dropzone",
+  "bugs": "https://github.com/aloyziuz/ngx-dropzone/issues",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hackingharold/ngx-dropzone.git"
+    "url": "git+https://github.com/aloyziuz/ngx-dropzone.git"
   },
   "keywords": [
     "angular",
@@ -27,6 +27,6 @@
     "@angular/core": "^16.0.0",
     "@angular/forms": "^16.0.0",
     "@ngx-dropzone/cdk": "^16.0.0",
-    "rxjs": "~6.6.0"
+    "rxjs": "^7.8.1"
   }
 }
