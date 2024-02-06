@@ -4,7 +4,7 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { DropzoneCdkModule } from 'cdk';
+import { DropzoneCdkModule } from '@aloysius-software-factory/ngx-dropzone-cdk';
 import { DropzoneMaterialModule } from 'material';
 import { AppComponent } from './app.component';
 

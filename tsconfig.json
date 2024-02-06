@@ -4,7 +4,7 @@
   "compilerOptions": {
     "baseUrl": "./",
     "paths": {
-      "cdk": ["dist/cdk"],
+      "@aloysius-software-factory/ngx-dropzone-cdk": ["dist/cdk"],
       "material": ["dist/material"]
     },
     "outDir": "./dist/out-tsc",
